@@ -1,287 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World.Net</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@900&family=Poppins:wght@400;700&family=Reem+Kufi&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World.Net</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@900&family=Poppins:wght@400;700&family=Reem+Kufi&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="header-nav">
+        <a class="header-logo" href="./index.html">World.Net</a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Tarrifs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="contact">
+        <a class="contacts-link" href="tel:88006549732">8 (800) 654-97-32</a>
+      </address>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
       <div class="container header-container">
-        <nav class="header-nav">
-          <a class="header-logo" href="./index.html">World.Net</a>
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-link" href="">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reviews">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Tarrifs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacts">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contact">
-          <a class="contacts-link" href="tel:88006549732">8 (800) 654-97-32</a>
-        </address>
+        <div>
+          <h1 class="hero-title">Reliable Home Internet and TV Provider</h1>
+          <p class="hero-text">
+            We work only in small towns. Thanks to this, we maintain quality
+            and we will not spray
+          </p>
+          <button class="hero-btn" data-modal-open type="button">
+            Submit your application
+          </button>
+        </div>
+        <img src="./images/hero-img.svg" alt="hero-img" width="572" height="560" />
       </div>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="container header-container">
-          <div>
-            <h1 class="hero-title">Reliable Home Internet and TV Provider</h1>
-            <p class="hero-text">
-              We work only in small towns. Thanks to this, we maintain quality
-              and we will not spray
-            </p>
-            <button class="hero-btn" data-modal-open type="button">
-              Submit your application
-            </button>
-          </div>
-          <img
-            src="./images/hero-img.svg"
-            alt="hero-img"
-            width="572"
-            height="560"
-          />
-        </div>
-      </section>
-      <section class="advantages">
-        <div class="container">
-          <h2 class="advantages-title">Why choose our company</h2>
-          <ul class="advantages-list">
-            <li class="advantages-item">
-              <img
-                class="advantages-img"
-                src="./images/speed.svg"
-                alt="speed"
-                width="70"
-                height="70"
-              />
-              <h3 class="advantages-subtitle">Speed</h3>
-              <p class="advantages-text">
-                Thanks to GPON and a backup line, we guarantee the speed right
-                under the contract
-              </p>
-            </li>
-            <li class="advantages-item">
-              <img
-                class="advantages-img"
-                src="./images/install.svg"
-                alt="install"
-                width="70"
-                height="70"
-              />
-              <h3 class="advantages-subtitle">Installation</h3>
-              <p class="advantages-text">
-                We carefully mount the cable, without damaging the interior of
-                your apartment or house
-              </p>
-            </li>
-            <li class="advantages-item">
-              <img
-                class="advantages-img"
-                src="./images/support.svg"
-                alt="support"
-                width="70"
-                height="70"
-              />
-              <h3 class="advantages-subtitle">Support</h3>
-              <p class="advantages-text">
-                Round-the-clock help in the application or via the hotline, even
-                on holidays you can get an answer to your question
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="about">
-        <img
-          src="./images/about-img.svg"
-          alt="about"
-          width="544"
-          height="525"
-        />
-        <h2>We will connect today or next day</h2>
-        <p>
-          Our coverage area is much smaller than that of large providers. This
-          allows us to work quickly: 64% of subscribers receive Internet and TV
-          immediately on the day of application. Even if you need to connect a
-          private house, not an apartment.
-        </p>
-
-        <ul>
-          <li>
-            <p>14 536 Active subscribers throughout the region</p>
-          </li>
-          <li>
-            <p>4,91 Average quality score for home Internet and TV</p>
-          </li>
-        </ul>
-      </section>
-
-      <section id="reviews">
-        <p>Customer Feedback</p>
-        <h2>What Our Customer Say About Us</h2>
-        <ul>
-          <li>
-            <h3>Name Here</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
-              odio arcu id praesent vitae. Facilisis vitae fringilla donec
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages-title">Why choose our company</h2>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <img class="advantages-img" src="./images/speed.svg" alt="speed" width="70" height="70" />
+            <h3 class="advantages-subtitle">Speed</h3>
+            <p class="advantages-text">
+              Thanks to GPON and a backup line, we guarantee the speed right
+              under the contract
             </p>
           </li>
-          <li>
-            <h3>Name Here</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
-              odio arcu id praesent vitae. Facilisis vitae fringilla donec
+          <li class="advantages-item">
+            <img class="advantages-img" src="./images/install.svg" alt="install" width="70" height="70" />
+            <h3 class="advantages-subtitle">Installation</h3>
+            <p class="advantages-text">
+              We carefully mount the cable, without damaging the interior of
+              your apartment or house
             </p>
           </li>
-          <li>
-            <h3>Name Here</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
-              odio arcu id praesent vitae. Facilisis vitae fringilla donec
+          <li class="advantages-item">
+            <img class="advantages-img" src="./images/support.svg" alt="support" width="70" height="70" />
+            <h3 class="advantages-subtitle">Support</h3>
+            <p class="advantages-text">
+              Round-the-clock help in the application or via the hotline, even
+              on holidays you can get an answer to your question
             </p>
           </li>
         </ul>
-      </section>
-      <section>
-        <h2>Tarrifs</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/standart.svg"
-              alt="standart"
-              width="248"
-              height="228"
-            />
-            <h3>Standart</h3>
-            <p>$20/month</p>
-            <p>The connection is always stable</p>
-            <p>Speed of 100 Mbit / s</p>
-            <button type="button">Make a request</button>
-          </li>
-          <li>
-            <img
-              src="./images/smart.svg"
-              alt="smart"
-              width="248"
-              height="228"
-            />
-            <h3>Smart</h3>
-            <p>$30/month</p>
-            <p>Service without weekends</p>
-            <p>Speed of 300 Mbit / s</p>
-            <button type="button">Make a request</button>
-          </li>
-          <li>
-            <img
-              src="./images/prime.svg"
-              alt="prime"
-              width="248"
-              height="228"
-            />
-            <h3>Prime</h3>
-            <p>$40/month</p>
-            <p>New modern fiber optic network</p>
-            <p>Speed of 1000 Mbit / s</p>
-            <button type="button">Make a request</button>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer id="contacts">
-      <a href="./index.html">World.Net</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <img src="./images/about-img.svg" alt="about" width="544" height="525" />
+      <h2>We will connect today or next day</h2>
+      <p>
+        Our coverage area is much smaller than that of large providers. This
+        allows us to work quickly: 64% of subscribers receive Internet and TV
+        immediately on the day of application. Even if you need to connect a
+        private house, not an apartment.
+      </p>
+
       <ul>
         <li>
-          <a href="" target="_blank"
-            ><img src="./images/instagram.svg" alt="instagram"
-          /></a>
+          <p>14 536 Active subscribers throughout the region</p>
         </li>
         <li>
-          <a href="" target="_blank"
-            ><img src="./images/facebook.svg" alt="facebook"
-          /></a>
-        </li>
-        <li>
-          <a href="" target="_blank"
-            ><img src="./images/whatsapp.svg" alt="whatsapp"
-          /></a>
+          <p>4,91 Average quality score for home Internet and TV</p>
         </li>
       </ul>
-      <address>
-        <a href="tel:88006549732">8 (800) 654-97-32</a>
-      </address>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="modal-close-btn" data-modal-close type="button" ></button>
-        <p class="modal-text">Contact Us</p>
-        <p class="modal-title">
-          <span class="modal-title-part">Contact</span> Us & We Can Work
-          Together
-        </p>
-        <p class="modal-descr">
-          Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu
-          enim id gravida pulvinar. Tristique consectetur mi curabitur congue
-          enim dignissim
-        </p>
+    </section>
+
+    <section id="reviews">
+      <p>Customer Feedback</p>
+      <h2>What Our Customer Say About Us</h2>
+      <ul>
+        <li>
+          <h3>Name Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+            odio arcu id praesent vitae. Facilisis vitae fringilla donec
+          </p>
+        </li>
+        <li>
+          <h3>Name Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+            odio arcu id praesent vitae. Facilisis vitae fringilla donec
+          </p>
+        </li>
+        <li>
+          <h3>Name Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Nisi ullamcorper tincidunt
+            odio arcu id praesent vitae. Facilisis vitae fringilla donec
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Tarrifs</h2>
+      <ul>
+        <li>
+          <img src="./images/standart.svg" alt="standart" width="248" height="228" />
+          <h3>Standart</h3>
+          <p>$20/month</p>
+          <p>The connection is always stable</p>
+          <p>Speed of 100 Mbit / s</p>
+          <button type="button">Make a request</button>
+        </li>
+        <li>
+          <img src="./images/smart.svg" alt="smart" width="248" height="228" />
+          <h3>Smart</h3>
+          <p>$30/month</p>
+          <p>Service without weekends</p>
+          <p>Speed of 300 Mbit / s</p>
+          <button type="button">Make a request</button>
+        </li>
+        <li>
+          <img src="./images/prime.svg" alt="prime" width="248" height="228" />
+          <h3>Prime</h3>
+          <p>$40/month</p>
+          <p>New modern fiber optic network</p>
+          <p>Speed of 1000 Mbit / s</p>
+          <button type="button">Make a request</button>
+        </li>
+      </ul>
+    </section>
+    <section class="request">
+      <div class="container">
+        <h2 class="request-title">Leave a request and our manager will contact you shortly</h2>
+        <p class="request-text">You will have the opportunity to discuss details and ask clarifying questions</p>
         <form>
-          <label class="modal-form-label" for="user-name">
-            <input
-              class="modal-form-input"
-              name="user-name"
-              id="user-name"
-              type="text"
-              placeholder="Your Name"
-            />
-          </label>
-          <label class="modal-form-label" for="user-email">
-            <input
-              class="modal-form-input"
-              name="user-email"
-              id="user-email"
-              type="email"
-              placeholder="Your Email"
-            />
-          </label>
-          <label class="modal-form-massage" for="user-message">
-            <textarea
-              class="modal-form-textarea"
-              name="user-message"
-              id="user-message"
-              placeholder="Your Message"
-            ></textarea>
-          </label>
-          <button class="modal-btn"  type="submit">Submit Message</button>
+          <div class="request-box">
+            <label>
+              <input class="request-input" type="tel" name="user-phone-number" placeholder="Phone number">
+            </label>
+            <label>
+              <input class="request-input" type="text" name="name-user" placeholder="Name">
+            </label>
+            <button class="request-button" type="submit">Order calculation</button>
+          </div>
+          <div class="checkbox-wrapper">
+            <input class="request-checkbox visually-hidden" type="checkbox" name="user-checkbox" id="user-checkbox">
+            <label class="checkbox-label" for="user-checkbox">
+              <span class="custom-checkbox">
+                <svg width="7" height="5">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              By clicking on the button, you agree to the <a href="" class="request-link">terms of processing personal
+                data</a>
+            </label>
+          </div>
         </form>
       </div>
+    </section>
+  </main>
+  <footer id="contacts">
+    <a href="./index.html">World.Net</a>
+    <ul>
+      <li>
+        <a href="" target="_blank"><img src="./images/instagram.svg" alt="instagram" /></a>
+      </li>
+      <li>
+        <a href="" target="_blank"><img src="./images/facebook.svg" alt="facebook" /></a>
+      </li>
+      <li>
+        <a href="" target="_blank"><img src="./images/whatsapp.svg" alt="whatsapp" /></a>
+      </li>
+    </ul>
+    <address>
+      <a href="tel:88006549732">8 (800) 654-97-32</a>
+    </address>
+  </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-close-btn" data-modal-close type="button"></button>
+      <p class="modal-text">Contact Us</p>
+      <p class="modal-title">
+        <span class="modal-title-part">Contact</span> Us & We Can Work
+        Together
+      </p>
+      <p class="modal-descr">
+        Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu
+        enim id gravida pulvinar. Tristique consectetur mi curabitur congue
+        enim dignissim
+      </p>
+      <form>
+        <label class="modal-form-label" for="user-name">
+          <input class="modal-form-input" name="user-name" id="user-name" type="text" placeholder="Your Name" />
+        </label>
+        <label class="modal-form-label" for="user-email">
+          <input class="modal-form-input" name="user-email" id="user-email" type="email" placeholder="Your Email" />
+        </label>
+        <label class="modal-form-massage" for="user-message">
+          <textarea class="modal-form-textarea" name="user-message" id="user-message"
+            placeholder="Your Message"></textarea>
+        </label>
+        <button class="modal-btn" type="submit">Submit Message</button>
+      </form>
     </div>
-    <script src="./js/modal.js"></script> 
-  </body>
+  </div>
+  <script src="./js/modal.js"></script>
+</body>
+
 </html>
